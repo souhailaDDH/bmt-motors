@@ -43,7 +43,7 @@ const Gallery = () => {
               Notre <span className="text-red-600">Galerie</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Découvrez quelques-unes de nos réalisations et l'ambiance de notre atelier. 
+              Découvrez quelques-unes de mes réalisations et l'ambiance de mon atelier. 
               Chaque projet est unique et réalisé avec le plus grand soin.
             </p>
           </div>
