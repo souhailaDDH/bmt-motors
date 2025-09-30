@@ -11,7 +11,7 @@ const Contact = () => {
               Nous <span className="text-red-500">Contacter</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-              Retrouvez toutes nos informations de contact et nos horaires d'ouverture.
+              Retrouvez toutes mes informations de contact.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-1">Email</h4>
-                    <p className="text-gray-300">contact@motofixpro.fr</p>
+                    <p className="text-gray-300">bmt.motors80@gmail.fr</p>
                   </div>
                 </div>
 
@@ -59,13 +59,6 @@ const Contact = () => {
                   <div className="bg-red-600 p-3 rounded-lg">
                     <Clock className="w-6 h-6 text-white" />
                   </div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Horaires</h4>
-                    <div className="text-gray-300 space-y-1">
-                      <p>Lundi - Vendredi: 8h00 - 18h00</p>
-                      <p>Samedi: 8h00 - 16h00</p>
-                      <p className="text-red-400">Dimanche: Fermé</p>
-                    </div>
                   </div>
                 </div>
               </div>
