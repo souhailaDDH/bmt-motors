@@ -41,11 +41,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-red-500" />
-                <span className="text-gray-400">contact@motofixpro.fr</span>
+                <span className="text-gray-400">bmt.motors80@gmail.com</span>
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-red-500 mt-1" />
-                <span className="text-gray-400">123 Rue de la Mécanique<br />69000 Lyon</span>
+                <span className="text-gray-400">315 Route de Rouen<br />80000 Amiens</span>
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 BMT MOTORS. Tous droits réservés.
+            © 2025 BMT MOTORS. Tous droits réservés.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <button className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
