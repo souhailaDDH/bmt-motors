@@ -52,12 +52,12 @@ const About = () => {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-white">Notre Expertise</h3>
               <p className="text-gray-300">
-                Chez BMT MOTORS, nous sommes passionnés par les motos et nous mettons cette passion 
-                au service de nos clients. Notre équipe de mécaniciens certifiés maîtrise toutes les 
+                Chez BMT MOTORS, je suis passionné par les motos et je mets cette passion 
+                au service de mes clients. Je maîtrise toutes les 
                 marques et tous les modèles, des motos classiques aux dernières sportives.
               </p>
               <p className="text-gray-300">
-                Nous utilisons uniquement des pièces de qualité et des équipements de diagnostic 
+                J'utilise uniquement des pièces de qualité et des équipements de diagnostic 
                 de pointe pour garantir des réparations durables et fiables.
               </p>
             </div>
