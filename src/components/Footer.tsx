@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4 text-red-500" />
-                <span className="text-gray-400">04 xx xx xx xx</span>
+                <span className="text-gray-400">07 65 64 60 88</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4 text-red-500" />
@@ -50,29 +50,9 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Horaires */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Horaires</h4>
-            <div className="space-y-2 text-gray-400">
-              <div className="flex justify-between">
-                <span>Lun - Ven</span>
-                <span>8h - 18h</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Samedi</span>
-                <span>8h - 16h</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Dimanche</span>
-                <span className="text-red-400">Fermé</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 BMT MOTORS. Tous droits réservés.
+            © 2025 BMT MOTORS. Souhaila Didouh. Tous droits réservés.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <button className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
