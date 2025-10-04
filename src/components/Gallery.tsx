@@ -80,6 +80,7 @@ const Gallery = () => {
                 Voir Plus de Photos
               </button>
               <button className="border-2 border-red-600 text-red-600 px-6 py-3 rounded-lg hover:bg-red-600 hover:text-white transition-all duration-200">
+                src: "https://www.instagram.com/bmt.motors80?igsh=MWl1YmFjY213b2pxbQ%3D%3D&utm_source=qr",
                 Suivez-nous sur Instagram
               </button>
             </div>
