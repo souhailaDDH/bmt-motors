@@ -22,24 +22,6 @@ const About = () => {
             />
           </div>
 
-          <div className="space-y-8">
-            <div className="grid grid-cols-2 gap-6">
-              <div className="text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Users className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-2">500+</h3>
-                <p className="text-gray-300">Clients satisfaits</p>
-              </div>
-
-              <div className="text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-2">24h</h3>
-                <p className="text-gray-300">Délai moyen</p>
-              </div>
-
               <div className="text-center">
                 <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Wrench className="w-8 h-8 text-white" />
@@ -52,8 +34,8 @@ const About = () => {
             <div className="space-y-4">
               <h3 className="text-2xl font-bold text-white">Notre Expertise</h3>
               <p className="text-gray-300">
-                Chez BMT MOTORS, je suis passionné par les motos et je mets cette passion 
-                au service de mes clients. Je maîtrise toutes les 
+                Bienvenue chez BMT MOTORS. 
+                Passionné par les motos, je mets cette passion au service de mes clients. Je maîtrise toutes les 
                 marques et tous les modèles, des motos classiques aux dernières sportives.
               </p>
               <p className="text-gray-300">
