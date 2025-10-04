@@ -6,21 +6,9 @@ const Services = () => {
     {
       icon: <Wrench className="w-8 h-8" />,
       title: "Réparation Générale",
-      description: "Diagnostic et réparation de tous problèmes mécaniques, électriques et électroniques.",
-      features: ["Diagnostic complet", "Réparation moteur", "Système de freinage", "Transmission"]
+      description: "Diagnostic et réparation de tous problèmes mécaniques et électroniques.",
+      features: ["Diagnostic complet", "Réparation/refection moteur, boite, coussinets", "Remplacement des courroies de distribution", "Système de freinage", "Changement de pneu", "Remplacement des joints spy de fourche et entretien de la fourche", "Kit chaine", "Entretien de hub de roue arrière pour les monobras", "Révision complète", "Jeu aux soupapes", "Montage de pièces performance pour la piste", "Vidange", "Entretien carbu avec synchronisation", "Remplacement d'embrayage", "Roulements de direction", "Diagnostic Électronique", "Maintenance préventive selon les préconisations constructeur", "Et plus encore" ]
     },
-    {
-      icon: <Settings className="w-8 h-8" />,
-      title: "Entretien Périodique",
-      description: "Maintenance préventive selon les préconisations constructeur pour optimiser les performances.",
-      features: ["Vidange moteur", "Révision complète", "Changement filtres", "Contrôle général"]
-    },
-    {
-      icon: <Zap className="w-8 h-8" />,
-      title: "Diagnostic Électronique",
-      description: "Analyse précise des systèmes électroniques avec matériel de pointe dernière génération.",
-      features: ["Scanner OBD", "Diagnostic ABS", "Système injection", "Calculateurs"]
-    }
   ];
 
   return (
