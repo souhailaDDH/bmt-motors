@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Phone, Clock, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -61,20 +61,6 @@ const Contact = () => {
                   <div>
                     <h4 className="text-lg font-semibold text-white mb-1">Email</h4>
                     <p className="text-gray-300">bmt.motors80@gmail.com</p>
-                  </div>
-                </div>
-
-                {/* Horaires */}
-                <div className="flex items-start space-x-4">
-                  <div className="bg-red-600 p-3 rounded-lg">
-                    <Clock className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-white mb-1">Horaires</h4>
-                    <p className="text-gray-300">
-                      Lundi – Samedi : 9h00 - 18h00<br />
-                      Dimanche : fermé
-                    </p>
                   </div>
                 </div>
               </div>
