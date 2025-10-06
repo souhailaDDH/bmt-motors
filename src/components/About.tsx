@@ -6,7 +6,9 @@ const About = () => {
     <section id="about" className="py-20 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">À Propos de BMT MOTORS</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            À Propos de BMT MOTORS
+          </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Spécialiste de la mécanique moto, mon expertise 
             au service de votre passion pour les deux-roues.
@@ -22,16 +24,16 @@ const About = () => {
             />
           </div>
 
-              <div className="text-center">
-                <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Wrench className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold text-white mb-2">100%</h3>
-                <p className="text-gray-300">Qualité garantie</p>
+          <div className="space-y-8">
+            <div className="text-center">
+              <div className="bg-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Wrench className="w-8 h-8 text-white" />
               </div>
+              <h3 className="text-2xl font-bold text-white mb-2">100%</h3>
+              <p className="text-gray-300">Qualité garantie</p>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-4 text-left">
               <h3 className="text-2xl font-bold text-white">Notre Expertise</h3>
               <p className="text-gray-300">
                 Bienvenue chez BMT MOTORS. 
