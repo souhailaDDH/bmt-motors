@@ -31,17 +31,17 @@ const Footer = () => {
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-5 h-5 text-white"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 48 48"
                   fill="currentColor"
+                  className="w-5 h-5 text-white"
                 >
-                  <path d="M12.003 0C5.373 0 0 5.373 0 12c0 6.63 5.373 12 12.003 12 6.627 0 12-5.37 12-12 0-6.627-5.373-12-12-12zm2.436 16.644a5.05 5.05 0 01-2.49-.694v-5.39h2.21v3.36a2.635 2.635 0 001.19.312c.15 0 .293-.006.438-.017v2.419c-.154.018-.31.03-.448.01z"/>
+                  <path d="M34.77 15.94c-.87-.18-1.71-.42-2.5-.71v9.77c-.06.02-.13.05-.19.07-3.51.95-6.87-.18-9.21-3.18a8.82 8.82 0 01-1.88-5.01c0-.16.01-.31.02-.47V10.8c-.04.01-.09.02-.13.03-1.1.24-2.2.28-3.3.12v6.43c0 3.36 2.21 6.33 5.38 7.35 3.43 1.11 7.13-.2 9.23-3.03v7.02c-2.36.63-4.82.8-7.24.49-5.44-.63-9.87-5.11-10.77-10.55-.11-.63-.17-1.28-.17-1.93v-9.7h3.92v1.34c1.42-.22 2.85-.19 4.24.08v9.18c.46.12.93.2 1.4.24 1.81.15 3.57-.21 5.19-1.03V15.94z"/>
                 </svg>
               </a>
 
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/bmt.motors80"
+                href="https://www.instagram.com/bmt.motors80/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-lg hover:bg-red-600 transition-colors duration-200"
@@ -65,7 +65,9 @@ const Footer = () => {
               </div>
               <div className="flex items-start space-x-2">
                 <MapPin className="w-4 h-4 text-red-500 mt-1" />
-                <span className="text-gray-400">315 Route de Rouen<br />80000 Amiens</span>
+                <span className="text-gray-400">
+                  315 Route de Rouen<br />80000 Amiens
+                </span>
               </div>
             </div>
           </div>
