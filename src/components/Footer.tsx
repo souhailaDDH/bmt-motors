@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrench, Facebook, Instagram, Phone, Mail, MapPin } from 'lucide-react';
+import { Wrench, Instagram, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -22,12 +22,32 @@ const Footer = () => {
               entretien, diagnostic et customisation avec soin et attention.
             </p>
             <div className="flex space-x-4">
-              <button className="bg-gray-800 p-3 rounded-lg hover:bg-red-600 transition-colors duration-200">
-                <Facebook className="w-5 h-5" />
-              </button>
-              <button className="bg-gray-800 p-3 rounded-lg hover:bg-red-600 transition-colors duration-200">
-                <Instagram className="w-5 h-5" />
-              </button>
+              {/* TikTok */}
+              <a
+                href="https://www.tiktok.com/@bmt.motors80"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 p-3 rounded-lg hover:bg-red-600 transition-colors duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-5 h-5 text-white"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M12.003 0C5.373 0 0 5.373 0 12c0 6.63 5.373 12 12.003 12 6.627 0 12-5.37 12-12 0-6.627-5.373-12-12-12zm2.436 16.644a5.05 5.05 0 01-2.49-.694v-5.39h2.21v3.36a2.635 2.635 0 001.19.312c.15 0 .293-.006.438-.017v2.419c-.154.018-.31.03-.448.01z"/>
+                </svg>
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/bmt.motors80"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 p-3 rounded-lg hover:bg-red-600 transition-colors duration-200"
+              >
+                <Instagram className="w-5 h-5 text-white" />
+              </a>
             </div>
           </div>
 
@@ -49,6 +69,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
+        </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
