@@ -19,7 +19,7 @@ const About = () => {
           {/* Photo de l'atelier */}
           <div>
             <img
-              src="https://i.imgur.com/7tejiJo.jpg" // URL directe de ton image
+              src="https://imgur.com/2F8huTX" // URL directe de ton image
               alt="Atelier BMT Motors"
               className="rounded-lg shadow-xl w-full object-cover"
             />
