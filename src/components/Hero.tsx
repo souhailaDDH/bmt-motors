@@ -29,7 +29,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Votre Moto Entre
             <span className="block text-red-500 bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent">
-              Bonnes Mains
+              De Bonnes Mains
             </span>
           </h1>
 
