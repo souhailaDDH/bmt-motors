@@ -1,6 +1,6 @@
 import React from 'react';
 import { Wrench } from 'lucide-react';
-import unnamedPhoto from '../assets/unnamed.jpg'; // chemin vers ta photo
+import unnamedPhoto from '../assets/unnamed.jpg'; // ton fichier photo
 
 const About = () => {
   return (
@@ -17,12 +17,11 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="text-center">
-            <p className="text-gray-400 mb-4">Photo de notre atelier – bientôt disponible :</p>
+          <div>
             <img
-              src={unnamedPhoto}
+              src={unnamedPhoto} // utilisation de ta photo locale
               alt="Atelier BMT Motors"
-              className="rounded-lg shadow-xl mx-auto"
+              className="rounded-lg shadow-xl w-full object-cover"
             />
           </div>
 
