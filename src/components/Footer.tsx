@@ -24,7 +24,7 @@ const Footer = () => {
             <div className="flex space-x-4">
               {/* TikTok */}
               <a
-                href="https://www.tiktok.com/@bmt.motors"
+                href="https://www.tiktok.com/@bmt.motors?_=ZN-90KNPbvQy18&_r=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-lg hover:bg-red-600 transition-colors duration-200"
