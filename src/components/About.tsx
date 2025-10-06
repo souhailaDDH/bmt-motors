@@ -1,5 +1,6 @@
 import React from 'react';
-import { Users, Award, Clock, Wrench } from 'lucide-react';
+import { Wrench } from 'lucide-react';
+import unnamedPhoto from '../assets/unnamed.jpg'; // chemin vers ta photo
 
 const About = () => {
   return (
@@ -16,11 +17,12 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="text-center">
+            <p className="text-gray-400 mb-4">Photo de notre atelier – bientôt disponible :</p>
             <img
-              src="https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src={unnamedPhoto}
               alt="Atelier BMT Motors"
-              className="rounded-lg shadow-xl"
+              className="rounded-lg shadow-xl mx-auto"
             />
           </div>
 
