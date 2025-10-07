@@ -2,20 +2,10 @@ import React from 'react';
 import { ArrowRight, Star } from 'lucide-react';
 
 const Hero = () => {
-  const scrollToContact = () => {
-    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section id="accueil" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-fixed"
-        style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg)',
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-red-900/40"></div>
-      </div>
+      {/* Fond noir */}
+      <div className="absolute inset-0 bg-black"></div>
 
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
