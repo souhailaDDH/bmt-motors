@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Wrench, Instagram, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
@@ -29,14 +30,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="bg-gray-800 p-3 rounded-lg hover:bg-red-600 transition-colors duration-200"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 48 48"
-                  fill="currentColor"
-                  className="w-5 h-5 text-white"
-                >
-                  <path d="M34.77 15.94c-.87-.18-1.71-.42-2.5-.71v9.77c-.06.02-.13.05-.19.07-3.51.95-6.87-.18-9.21-3.18a8.82 8.82 0 01-1.88-5.01c0-.16.01-.31.02-.47V10.8c-.04.01-.09.02-.13.03-1.1.24-2.2.28-3.3.12v6.43c0 3.36 2.21 6.33 5.38 7.35 3.43 1.11 7.13-.2 9.23-3.03v7.02c-2.36.63-4.82.8-7.24.49-5.44-.63-9.87-5.11-10.77-10.55-.11-.63-.17-1.28-.17-1.93v-9.7h3.92v1.34c1.42-.22 2.85-.19 4.24.08v9.18c.46.12.93.2 1.4.24 1.81.15 3.57-.21 5.19-1.03V15.94z"/>
-                </svg>
+                {/* Icône TikTok SVG */}
               </a>
 
               {/* Instagram */}
@@ -78,15 +72,15 @@ const Footer = () => {
             © 2025 BMT MOTORS. Souhaila Didouh. Tous droits réservés.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <button className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
+            <Link to="/mentions-legales" className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
               Mentions Légales
-            </button>
-            <button className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
+            </Link>
+            <Link to="/politique-confidentialite" className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
               Politique de Confidentialité
-            </button>
-            <button className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
+            </Link>
+            <Link to="/cgv" className="text-gray-400 hover:text-red-400 text-sm transition-colors duration-200">
               CGV
-            </button>
+            </Link>
           </div>
         </div>
       </div>
